@@ -3,54 +3,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gincana da Integração - Colégio Morski</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Gincana da Integração 2024</title>
+    <link rel="stylesheet" href="./styles/GlobalStyles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#carrossel">Fotos</a></li>
-                <li><a href="#classificacao">Classificação</a></li>
-            </ul>
-        </nav>
+       <div class="logo">
+           <img class="logo-imagem"></img>
+       </div>
     </header>
     
     <main>
-        <section id="sobre">
-            <h1>Gincana da Integração</h1>
-            <p>Bem-vindos à Gincana da Integração do Colégio Morski! Este é um evento anual onde alunos de todas as séries participam de diversas atividades e competições para promover a união e o espírito esportivo.</p>
-        </section>
+       <nav class="lista-provas">
+           <div class="botao-voltar">
+               <button class="botao-voltar-texto">
+               </button>
+           </div>
+           <div class="prova-1"></div>
+           <div class="prova-2"></div>
+           <div class="prova-3"></div>
+           <div class="prova-4"></div>
+           <div class="prova-5"></div>
+           <div class="prova-6"></div>
+           <div class="prova-7"></div>
+           <div class="botao-avancar">
+               <button class="botao-avancar-texto">
+               </button>
+           </div>
+       </nav>
         
-        <section id="carrossel">
-            <h2>Fotos do Evento</h2>
-            <div class="carousel">
-                <div class="slides">
-                    <img src="images/imagem1.jpg" alt="Imagem 1">
-                    <img src="images/imagem2.jpg" alt="Imagem 2">
-                    <img src="images/imagem3.jpg" alt="Imagem 3">
-                </div>
-                <button class="prev">❮</button>
-                <button class="next">❯</button>
+        <section class="classificacoes-section">
+            <div class="deco">
+                <img class="deco-imagem-1"></img>
+                <img class="deco-imagem-2"></img>
             </div>
-        </section>
-        
-        <section id="classificacao">
-            <h2>Classificação</h2>
-            <ul>
-                <li>1º Lugar - Equipe Azul</li>
-                <li>2º Lugar - Equipe Amarela</li>
-                <li>3º Lugar - Equipe Branca</li>
-                <li>4º Lugar - Equipe Vermelha</li>
+            <ul class="classificacoes-lista">
+                <li class="classificacao-item-1">
+                    <div class="classificacao-item-1-textos">
+                        <h2 class="classificacao-item-1-turmax"></h2>
+                        <img class="classificacao-item-1-imagem"></img>
+                        <h2 class="classificacao-item-1-turmay"></h2>
+                    </div>
+                </li>
+                <li class="classificacao-item-2">
+                    <div class="classificacao-item-2-textos">
+                        <h2 class="classificacao-item-2-turmax"></h2>
+                        <img class="classificacao-item-2-imagem"></img>
+                        <h2 class="classificacao-item-2-turmay"></h2>
+                    </div>
+                </li>
+                <li class="classificacao-item-3">
+                    <div class="classificacao-item-3-textos">
+                        <h2 class="classificacao-item-3-turmax"></h2>
+                        <img class="classificacao-item-3-imagem"></img>
+                        <h2 class="classificacao-item-3-turmay"></h2>
+                    </div>
+                </li>
+                <li class="classificacao-item-4">
+                    <div class="classificacao-item-4-textos">
+                        <h2 class="classificacao-item-4-turmax"></h2>
+                        <img class="classificacao-item-4-imagem"></img>
+                        <h2 class="classificacao-item-4-turmay"></h2>
+                    </div>
+                </li>
+                <li class="classificacao-title-item">
+                    <img class="classificacao-title-image"></img>
+                </li>
             </ul>
         </section>
     </main>
-    
+
     <footer>
-        <p>&copy; 2024 Colégio Morski. Todos os direitos reservados.</p>
+        <div class="copyright">
+            <p>&copy; 2024 Colégio Morski em conjunto à 3ªS. Todos os direitos reservados.</p>
+        </div>
     </footer>
-    
-    <script src="script.js"></script>
+    <script src="./scripts/main.js"></script>
 </body>
 </html>
